@@ -26,6 +26,7 @@ args = vars(ap.parse_args())
 net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
 
 def process():
+    net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
     if mode == '1':
         print('Video mode')
         print('[INFO] loading model...')
@@ -79,6 +80,7 @@ def process():
 
         #clean up
     else:
+        net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
         # Load the Caffe model for face detection
         print('Image mode')
         img = cv2.imread(input('Enter image path for image mode: '))
