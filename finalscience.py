@@ -110,9 +110,10 @@ def process():
                 y = startY - 10 if startY - 10 > 10 else startY + 10
                 cv2.rectangle(img, (startX, startY), (endX, endY), (0, 0, 255), 2)
                 cv2.putText(img, text, (startX, y),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
+                            cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 0, 255), 2)
 
         # Show the output image
+        cv2.namedWindow('img', cv2.WINDOW_NORMAL)
         cv2.imshow('img', img)
         cv2.waitKey()
 
