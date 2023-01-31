@@ -1,6 +1,5 @@
 # tutorial followed from https://www.youtube.com/watch?v=piaEXzNkowY
 
-# python D:\sciReal\finalscience.py --prototxt D:\sciReal\deploy.prototxt.txt --model D:\sciReal\res10_300x300_ssd_iter_140000.caffemodel
 import cv2
 import numpy as np
 import argparse
