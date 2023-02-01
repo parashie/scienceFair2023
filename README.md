@@ -1,11 +1,16 @@
 Science fair 2023
 
-The Effect of different obstructions on Facial Recognition
+The Effect of Different Obstructions on Accuracy of Facial Recognition
 
-![image](https://user-images.githubusercontent.com/85245101/213343040-c3f73456-315f-46b3-aaa3-9f93c77ead1c.png)
+Using OpenCV Library, Caffee Model DNN, following tutorials online. We built this modified version of a facial recognition program. 
+We then tested the accuracy of it using facial obstructions, like masks, hats, and glasses.
 
-![The Accuracy of Facial Recognition on Different Obstructions](https://user-images.githubusercontent.com/85245101/213343067-f82fd193-f2f5-4f70-8e74-da6e9c6ccded.png)
+To use, run Terminal and put in python, path to file, path to prototext and path to the model.
+Model/Prototext used within repo
 
-Using OpenCV Library, and Caffee DNN and follwing tutorials online, we built this modified version of a facial recognition script. 
+Necessary Libraries 
 
-We then tested the accuracy of it using facial obstructions, like masks, hats, and glasses. 
+Imutils
+OpenCV
+numpy
+
