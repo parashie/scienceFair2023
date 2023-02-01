@@ -1,6 +1,6 @@
-Science fair 2023
+# Science fair 2023
 
-The Effect of Different Obstructions on Accuracy of Facial Recognition
+# The Effect of Different Obstructions on Accuracy of Facial Recognition
 
 Using OpenCV Library, Caffee Model DNN, following tutorials online. We built this modified version of a facial recognition program. 
 We then tested the accuracy of it using facial obstructions, like masks, hats, and glasses.
